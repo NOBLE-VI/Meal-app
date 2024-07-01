@@ -32,7 +32,7 @@ function MealCard(img, mealName, mealArea, mealId, mealData) {
 
   // Create the link element and set its class and text
   const link = document.createElement("a");
-  link.href = `./MealDetail.html?mealId=${mealId}`;
+  link.href = `./pages/MealDetail.html?mealId=${mealId}`;
   link.className = "btn btn-secondary";
   link.textContent = "See meal";
 
