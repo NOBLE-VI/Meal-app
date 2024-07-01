@@ -50,13 +50,13 @@ function MealCard(img, mealName, mealArea, mealId, mealData) {
     console.log(fav_img.getAttribute("data-isFav"));
 
     if (fav_img.getAttribute("data-isFav") == "false") {
-      fav_img.src = `../media/svg/heart-fill.svg`;
+      fav_img.src = `./media/svg/heart-fill.svg`;
       fav_img.setAttribute("data-isFav", true);
 
       favouriteMeals.push(mealData);
       localStorage.setItem("fav", JSON.stringify([...favouriteMeals]));
     } else {
-      fav_img.src = `../media/svg/heart.svg`;
+      fav_img.src = `./media/svg/heart.svg`;
 
       const index = favouriteMeals.findIndex((ele) => ele.idMeal == mealId);
       favouriteMeals.splice(index, 1);
