@@ -1,0 +1,87 @@
+body{
+    background-color: rgb(254, 254, 243);
+}
+
+
+#main-container{
+    padding: 100px 100px 0px 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap;
+    gap: 10px;
+    height: auto;
+    /* border: 2px solid red; */
+}
+
+#main-container-fav{
+    padding: 100px 100px 0px 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap;
+    gap: 10px;
+    height: auto;
+}
+
+#main-details-container{
+    padding: 100px 100px 0px 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap;
+    gap: 10px;
+    height: 100px;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+}
+
+#navbar-logo-image{
+    border-radius: 5px;
+    width: 45px;
+}
+
+.card-width{
+    min-width: 400px;
+}
+
+#serachbar-container{
+    margin-top: 20px;
+}
+
+#search{
+    width: 300px;
+}
+
+.fav-button{
+    position: relative;
+    left: 150px;
+}
+
+.fav-button:hover{
+    cursor: pointer;
+}
+
+.fav-button-page2{
+    position: relative;
+    left: 105px;
+}
+
+.fav-button-page2:hover{
+    cursor: pointer;
+}
+
+#meal-image{
+    width: 80%;
+    height: 500px;
+}
+
+#image-container-meal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

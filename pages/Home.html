@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Meal</title>
+    <link rel="icon" href="../media/icon/Designer.png"/>  
+    <!-- bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../styles/styles.css"/>
+
+</head>
+<body>
+    
+
+    <header id="navbar-container">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./Home.html">
+                <img src="../media/icon/Designer.png" id="navbar-logo-image" alt="Logo image">
+              </a>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-4">
+                    
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./Home.html">Home</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="./FavouriteMeal.html">Favourite</a>
+                  </li>
+
+                </ul>
+
+                
+              </div>
+            </div>
+          </nav>
+
+
+    </header>
+
+    <main>
+
+        <div id="serachbar-container">
+            <div class="input-group mb-3 d-flex align-items-center justify-content-center">
+                <form class="d-flex" role="search">
+                    <input class="form-control text-white bg-secondary me-2" id="search" type="search" placeholder="Search" aria-label="Search">
+                    <!-- <button class="btn btn-outline-secondary" id="submit-button" type="submit">Search</button> -->
+                  </form>
+            </div>
+        </div>
+
+
+        <div id="main-container">
+
+            <div class="card" style="width: 18rem;">
+                <img src="../media/icon/Designer.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="./MealDetail.html?id=122" class="btn btn-primary">Go somewhere</a><i class="bi bi-heart"></i>
+                </div>
+            </div>
+            
+              
+        </div>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <!-- bootstrap script -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+<script type="module" src="./scripts/mainScript.js" defer></script>
+<script type="module" src="./scripts/DOMScript.js" defer></script>
+<script type="module" src="../scripts/Store.js" defer></script>
+<script type="module" src="../scripts/services.js" defer></script>
+
+</body>
+</html>
