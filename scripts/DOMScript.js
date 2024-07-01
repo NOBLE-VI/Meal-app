@@ -37,7 +37,7 @@ function MealCard(img, mealName, mealArea, mealId, mealData) {
   link.textContent = "See meal";
 
   const fav_img = document.createElement("img");
-  fav_img.src = `../media/svg/heart.svg`;
+  fav_img.src = `./media/svg/heart.svg`;
   fav_img.className = "fav-button";
   fav_img.setAttribute("data-isFav", false);
   fav_img.alt = "fav icon";
